@@ -7,8 +7,8 @@ import json from "@rollup/plugin-json";
 import postcss from "rollup-plugin-postcss";
 import postcssLessLoader from "rollup-plugin-postcss-webpack-alias-less-loader";
 
-const reactUrl = "https://neik.dev.intern.nav.no/npm/@esm-bundle/react/17.0.1/package/index.js";
-const reactDomUrl = "https://neik.dev.intern.nav.no/npm/@esm-bundle/react-dom/17.0.1/package/index.js";
+const reactUrl = "https://asset-bucket-proxy.dev.intern.nav.no/react-17.esm.js";
+const reactDomUrl = "https://asset-bucket-proxy.dev.intern.nav.no/react-dom-17.esm.js";
 
 const imports = {
   react: reactUrl,
