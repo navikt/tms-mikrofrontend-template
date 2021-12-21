@@ -5,6 +5,8 @@ Kan brukes som utgangspunkt for å opprette nye mikrofrontends i Min Side.
 ## Tilpass navn
 1. Søk etter og erstatt tms-mikrofrontend-template med det som skal være navnet på den nye appen.
 2. Sett riktig port i server/server.js, Dockerfile og nais.yaml.
+3. Sett opp secrets, som default er det lagt opp til secrets kan hentes fra `<appnavn>-secrets`.
+4. Legg til en CODEOWNERS fil.
 
 ## Velg riktig ingress
 Templaten kommer konfigurert to ingresser som bruker standarden i Team Min Side.
