@@ -9,8 +9,8 @@ Kan brukes som utgangspunkt for å opprette nye mikrofrontends i Min Side.
 ## Velg riktig ingress
 Templaten kommer konfigurert to ingresser som bruker standarden i Team Min Side.
 
-* Skal brukes til dev: https://person.dev.nav.no/<appnavn>
-* Skal brukes til prod: https://person.nav.no/<appnavn>
+* Skal brukes til dev: `https://person.dev.nav.no/<appnavn>`
+* Skal brukes til prod: `https://person.nav.no/<appnavn>`
 
 # Workflows
 Team Min Side bruker pb-workflow-authority for å sette opp workflows, husk å legge det til i prosjektet.
