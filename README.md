@@ -7,8 +7,6 @@ Kan brukes som utgangspunkt for å opprette nye mikrofrontends i Min Side.
 2. Sett riktig port i server/server.js, Dockerfile og nais.yaml.
 3. Sett riktig namespace og team i nais manifestene, de ligger i mappen under `nais/<cluster>`
 4. Sett opp secrets, som default er det lagt opp til secrets kan hentes fra `<appnavn>-secrets`
-5. Legg til en CODEOWNERS fil.
-6. Legg til NAIS deploy key.
 
 ## Velg riktig ingress
 Templaten kommer konfigurert to ingresser som bruker standarden i Team Min Side.
