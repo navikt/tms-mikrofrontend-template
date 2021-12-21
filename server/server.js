@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const basePath = "/mikronfrontend";
+const path = require("path");
+const basePath = "/tms-mikrofrontend-template";
 const buildPath = path.resolve(__dirname, "../dist");
 const server = express();
 
