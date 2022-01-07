@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { QueryClient, QueryClientProvider } from "react-query";
-import App from "./App";
-import "./index.less";
+import Microfrontend from "./Microfrontend";
+import "./bootstrap.less";
 
 const startMockWorker = async () => {
   const mock = await import("./mocks/browser");
@@ -15,9 +14,7 @@ if (process.env.NODE_ENV === "development") {
 
 ReactDOM.render(
   <React.StrictMode>
-    <QueryClientProvider client={new QueryClient()}>
-      <App />
-    </QueryClientProvider>
+    <Microfrontend />
   </React.StrictMode>,
-  document.getElementById("mikrofrontend")
+  document.getElementById("microfrontend")
 );
